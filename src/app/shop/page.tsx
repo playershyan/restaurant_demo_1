@@ -7,7 +7,7 @@ export default function Shop() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Global Tastes - Shop</title>
       </Head>
       <main className="min-h-screen relative overflow-hidden">
         <ShopSection />

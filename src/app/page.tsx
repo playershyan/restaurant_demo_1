@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Global Tastes Restaurant</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden w-full">
         <section className="!fixed inset-0 min-h-screen w-full bg-transparent flex flex-col items-center justify-between p-8 md:p-12 z-[20]">
           <Link href="/" className="font-semibold cursor-pointer">
-            Hukka Bukka
+            Global Tastes
           </Link>
 
           <div className="flex flex-col items-center">
@@ -22,7 +22,7 @@ export default function Home() {
               The pure taste of
             </h2>
             <h1 className="font-medium text-5xl sm:text-6xl md:text-[90px] lg:text-[160px] leading-none">
-              Bangladesh
+              The World
             </h1>
             <p className="text-xl md:text-[23px] text-center md:text-start mt-[20px] md:max-w-[600px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

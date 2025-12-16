@@ -7,7 +7,7 @@ export default function BookATable() {
   return (
     <>
       <Head>
-        <title>Restaurant Hukka Bukka</title>
+        <title>Global Tastes - Book a Table</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">

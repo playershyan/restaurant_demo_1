@@ -58,7 +58,7 @@ const Feed = () => {
           <li className="flex items-center justify-between h-[80px]">
             <h4 className="text-[20px] font-medium">Location</h4>
             <p className="text-[18px] text-white text-opacity-50">
-              Hukka Bukka.Bangladesh, Dhaka, Street 1234
+              Global Tastes · International Culinary Studio, Global City
             </p>
           </li>
         </ul>
@@ -97,7 +97,7 @@ const Feed = () => {
       </div>
 
       <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px] mt-[80px]">
-        Teacher
+        Instructor
       </h1>
       <div className="flex items-center mt-[32px] w-full">
         <div className="min-w-[80px] min-h-[80px] overflow-hidden relative bg-green-500 rounded-full">
@@ -110,7 +110,7 @@ const Feed = () => {
           />
         </div>
         <div className="flex flex-col ml-[32px]">
-          <h1 className="text-[24px]">Shariar Sheikh</h1>
+          <h1 className="text-[24px]">Alex Smith</h1>
           <p className="text-[16px] mt-[4px] text-white text-opacity-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
             neque quis consequuntur odio sed placeat illo tempore harum, est
@@ -120,21 +120,21 @@ const Feed = () => {
             <Link
               className="hover:animate-bounce"
               target="_blank"
-              href={"https://github.com/ShariarSheikh"}
+              href={"#"}
             >
               <BsGithub />
             </Link>
             <Link
               className="hover:animate-bounce"
               target="_blank"
-              href={"https://www.linkedin.com/in/sheikhshariar/"}
+              href={"#"}
             >
               <BsLinkedin />
             </Link>
             <Link
               className="hover:animate-bounce"
               target="_blank"
-              href={"https://www.facebook.com/profile.php?id=100053248808536"}
+              href={"#"}
             >
               <BsFacebook />
             </Link>

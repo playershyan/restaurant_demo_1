@@ -18,7 +18,7 @@ const ShopSection: FC = () => {
         className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
       >
         <Link href="/" className="font-semibold cursor-pointer">
-          Hukka Bukka
+          Global Tastes
         </Link>
         <div className="text-center">
           <h2 className="text-[#FACE8D] font-dancing text-[80px] leading-none">
@@ -48,7 +48,7 @@ const ShopSection: FC = () => {
                   style={{ background: `${value.logoBg}` }}
                   className="bg-red-500 z-20 w-[144px] h-[86px] rounded-[10px] flex items-center justify-center"
                 >
-                  <h1>Hukka Bukka</h1>
+                  <h1>Global Tastes</h1>
                 </div>
               </div>
               <div className="h-full px-[32px] py-[32px]">
