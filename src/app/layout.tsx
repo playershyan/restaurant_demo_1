@@ -5,6 +5,26 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Global Tastes",
   description: "Global Tastes International Restaurant Experience",
+  openGraph: {
+    title: "Global Tastes",
+    description: "Global Tastes International Restaurant Experience",
+    type: "website",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://restaurant-demo-1-alpha.vercel.app",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://restaurant-demo-1-alpha.vercel.app"}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "Global Tastes Restaurant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Global Tastes",
+    description: "Global Tastes International Restaurant Experience",
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://restaurant-demo-1-alpha.vercel.app"}/og-image.png`],
+  },
 };
 
 export default function RootLayout({
